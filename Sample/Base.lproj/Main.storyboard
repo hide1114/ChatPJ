@@ -45,6 +45,11 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgE-rw-hdu">
                                         <rect key="frame" x="285.66666666666669" y="54" width="69.333333333333314" height="30"/>
                                         <state key="normal" title="Send"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="onPressSendButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oEa-ZP-iED"/>
                                         </connections>

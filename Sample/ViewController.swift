@@ -10,7 +10,9 @@ import UIKit
 import Firebase
 import FirebaseDatabase
 
-final class ViewController: UIViewController {
+final class ViewController: UIViewController{
+    
+
     
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var nameTextField: UITextField!
@@ -39,7 +41,6 @@ final class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        
         //textViewを編集、選択可能にする
         self.textView.isEditable = false
         self.textView.isSelectable = true
@@ -47,8 +48,14 @@ final class ViewController: UIViewController {
         self.nameTextField.backgroundColor = UIColor(red: 117/255, green: 194/255, blue: 57/255, alpha: 1)
         self.messageTextField.backgroundColor = UIColor(red: 117/255, green: 194/255, blue: 57/255, alpha: 1)
         
-        nameTextField.delegate = self as? UITextFieldDelegate
-        messageTextField.delegate = self as? UITextFieldDelegate
+        //sendボタンカスタマイズ
+        self.sendButton.backgroundColor = UIColor(red: 0.25, green: 0.60, blue: 0.75, alpha: 1.0)
+        self.sendButton.setTitle("Submit", for: .normal)
+        self.sendButton.titleLabel?.font = UIFont(name: "Furuta", size: 14)
+        self.sendButton.setTitleColor(UIColor.white, for: .normal)
+        
+        nameTextField.delegate = self //as? UITextFieldDelegate
+        messageTextField.delegate = self //as? UITextFieldDelegate
         
         
         database = Database.database().reference()

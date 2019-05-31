@@ -9,4 +9,5 @@ target 'Sample' do
   pod 'Firebase'
   pod 'Firebase/Database'
   pod 'Firebase/Core'
+  pod 'JSQMessagesViewController'
 end
