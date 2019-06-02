@@ -12,7 +12,7 @@
 		080C5885228809A100B5CAD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080C5883228809A100B5CAD4 /* Main.storyboard */; };
 		080C5887228809A300B5CAD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080C5886228809A300B5CAD4 /* Assets.xcassets */; };
 		080C588A228809A300B5CAD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080C5888228809A300B5CAD4 /* LaunchScreen.storyboard */; };
-		080C5892228809EC00B5CAD4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 080C5891228809EC00B5CAD4 /* GoogleService-Info.plist */; };
+		0852FB2922A4831300E8B356 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0852FB2822A4831300E8B356 /* GoogleService-Info.plist */; };
 		367BA22610760E34C69FE192 /* Pods_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491D2B945D9E9F80E3262593 /* Pods_Sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		080C5886228809A300B5CAD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		080C5889228809A300B5CAD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		080C588B228809A300B5CAD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		080C5891228809EC00B5CAD4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0852FB2822A4831300E8B356 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		491D2B945D9E9F80E3262593 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C543D61C465BD057B3A662 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		E25C7AF72B897861C8C0F123 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 				080C5886228809A300B5CAD4 /* Assets.xcassets */,
 				080C5888228809A300B5CAD4 /* LaunchScreen.storyboard */,
 				080C588B228809A300B5CAD4 /* Info.plist */,
-				080C5891228809EC00B5CAD4 /* GoogleService-Info.plist */,
+				0852FB2822A4831300E8B356 /* GoogleService-Info.plist */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -88,7 +88,6 @@
 				A6C543D61C465BD057B3A662 /* Pods-Sample.debug.xcconfig */,
 				E25C7AF72B897861C8C0F123 /* Pods-Sample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				080C588A228809A300B5CAD4 /* LaunchScreen.storyboard in Resources */,
-				080C5892228809EC00B5CAD4 /* GoogleService-Info.plist in Resources */,
+				0852FB2922A4831300E8B356 /* GoogleService-Info.plist in Resources */,
 				080C5887228809A300B5CAD4 /* Assets.xcassets in Resources */,
 				080C5885228809A100B5CAD4 /* Main.storyboard in Resources */,
 			);
@@ -172,8 +171,6 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Sample/Pods-Sample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
-				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -182,8 +179,6 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
