@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		080C587C228809A100B5CAD4 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		080C587C228809A100B5CAD4 /* ChatPJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatPJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		080C587F228809A100B5CAD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		080C5881228809A100B5CAD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		080C5884228809A100B5CAD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		080C587D228809A100B5CAD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				080C587C228809A100B5CAD4 /* Sample.app */,
+				080C587C228809A100B5CAD4 /* ChatPJ.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,16 +88,15 @@
 				A6C543D61C465BD057B3A662 /* Pods-Sample.debug.xcconfig */,
 				E25C7AF72B897861C8C0F123 /* Pods-Sample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		080C587B228809A100B5CAD4 /* Sample */ = {
+		080C587B228809A100B5CAD4 /* ChatPJ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 080C588E228809A300B5CAD4 /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildConfigurationList = 080C588E228809A300B5CAD4 /* Build configuration list for PBXNativeTarget "ChatPJ" */;
 			buildPhases = (
 				C8BF172E1230839D3FE71D1C /* [CP] Check Pods Manifest.lock */,
 				080C5878228809A100B5CAD4 /* Sources */,
@@ -109,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = Sample;
+			name = ChatPJ;
 			productName = Sample;
-			productReference = 080C587C228809A100B5CAD4 /* Sample.app */;
+			productReference = 080C587C228809A100B5CAD4 /* ChatPJ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 080C5877228809A100B5CAD4 /* Build configuration list for PBXProject "Sample" */;
+			buildConfigurationList = 080C5877228809A100B5CAD4 /* Build configuration list for PBXProject "ChatPJ" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				080C587B228809A100B5CAD4 /* Sample */,
+				080C587B228809A100B5CAD4 /* ChatPJ */,
 			);
 		};
 /* End PBXProject section */
@@ -405,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		080C5877228809A100B5CAD4 /* Build configuration list for PBXProject "Sample" */ = {
+		080C5877228809A100B5CAD4 /* Build configuration list for PBXProject "ChatPJ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				080C588C228809A300B5CAD4 /* Debug */,
@@ -414,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		080C588E228809A300B5CAD4 /* Build configuration list for PBXNativeTarget "Sample" */ = {
+		080C588E228809A300B5CAD4 /* Build configuration list for PBXNativeTarget "ChatPJ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				080C588F228809A300B5CAD4 /* Debug */,
