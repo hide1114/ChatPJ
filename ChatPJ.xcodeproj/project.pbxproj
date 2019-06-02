@@ -12,8 +12,8 @@
 		080C5885228809A100B5CAD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080C5883228809A100B5CAD4 /* Main.storyboard */; };
 		080C5887228809A300B5CAD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080C5886228809A300B5CAD4 /* Assets.xcassets */; };
 		080C588A228809A300B5CAD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080C5888228809A300B5CAD4 /* LaunchScreen.storyboard */; };
-		080C5892228809EC00B5CAD4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 080C5891228809EC00B5CAD4 /* GoogleService-Info.plist */; };
 		367BA22610760E34C69FE192 /* Pods_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491D2B945D9E9F80E3262593 /* Pods_Sample.framework */; };
+		7F60ACF422A42B2F0058D190 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F60ACF322A42B2F0058D190 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		080C5886228809A300B5CAD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		080C5889228809A300B5CAD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		080C588B228809A300B5CAD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		080C5891228809EC00B5CAD4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		491D2B945D9E9F80E3262593 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F60ACF322A42B2F0058D190 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A6C543D61C465BD057B3A662 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		E25C7AF72B897861C8C0F123 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +69,7 @@
 				080C5886228809A300B5CAD4 /* Assets.xcassets */,
 				080C5888228809A300B5CAD4 /* LaunchScreen.storyboard */,
 				080C588B228809A300B5CAD4 /* Info.plist */,
-				080C5891228809EC00B5CAD4 /* GoogleService-Info.plist */,
+				7F60ACF322A42B2F0058D190 /* GoogleService-Info.plist */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				080C588A228809A300B5CAD4 /* LaunchScreen.storyboard in Resources */,
-				080C5892228809EC00B5CAD4 /* GoogleService-Info.plist in Resources */,
+				7F60ACF422A42B2F0058D190 /* GoogleService-Info.plist in Resources */,
 				080C5887228809A300B5CAD4 /* Assets.xcassets in Resources */,
 				080C5885228809A100B5CAD4 /* Main.storyboard in Resources */,
 			);
@@ -298,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -353,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -377,7 +377,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nexwld.drew.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -396,7 +396,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nexwld.drew.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
